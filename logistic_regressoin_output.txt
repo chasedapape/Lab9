@@ -1,0 +1,21 @@
+Logistic Regression Results
+Predictors: ['smoke', 'ht', 'ui']
+Response: low
+
+Model Accuracy: 68.42%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.96      0.80        25
+           1       0.67      0.15      0.25        13
+
+    accuracy                           0.68        38
+   macro avg       0.68      0.56      0.53        38
+weighted avg       0.68      0.68      0.61        38
+
+Confusion Matrix:
+[[24  1]
+ [11  2]]
+
+Pseudo R^2: 0.0625
